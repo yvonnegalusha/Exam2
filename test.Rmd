@@ -1,0 +1,137 @@
+---
+title: "Test 2"
+output: html_notebook
+---
+
+| Test 2                         |                Data Analysis with R |
+| :---                           |                                ---: |
+| Due by 8:00 PM on Thu Nov 2    | Business Analytics Graduate Program |
+| Submit via GitHub              |                 BAIS:6060 Fall 2023 |
+
+# Instructions
+
+**Submit your completed notebook back to GitHub by 9:00 PM.**
+
+*Late policy:* For every 10-minute period your notebook is turned in
+past 9:00 PM (including the first 10-minute period), you will lose 25%
+of the test points. For example, if `test.Rmd` is turned in at 9:01 PM,
+you will lose 25%.
+
+This is an individual exam. No communication with anyone else is
+allowed. However, the exam is open-notes and open-Internet. Observe all
+rules as specified on the homeworks as usual. As a reminder, please do
+not use Excel to save your CSV file.
+
+You should have received the exam materials (including this file,
+`test.Rmd`) from GitHub. Complete the exercises below in order. Before
+the time limit has expired, upload only your modified `test.Rmd` to
+GitHub.
+
+# Exercises
+
+```{r}
+
+```
+
+## 1 (4 points)
+
+R includes two built-in data frames, `cars` and `iris`. You can see them
+by typing "cars" and "iris" in the console. Combine `cars` and `iris`
+into a single list called `mylist`. Make sure `cars` comes first in
+`mylist`.
+
+```{r}
+
+```
+
+## 2 (4 points)
+
+Scrape the table with column headings "Liquid", "Dry", and "Capacity" at
+the webpage
+
+    https://en.wikipedia.org/wiki/Imperial_units
+
+into a data frame called `volume_table`. Just scrape the table; don't do
+any post-processing of the data frame.
+
+```{r}
+
+```
+
+## 3 (8 points)
+
+The included file `county_data.csv` contains some data for the 99
+counties in Iowa. The `region` column specifies the county code, and
+the `v` column specifies the data value of interest. Plot and export a
+choropleth map for this data; use `graphic.png` for the filename. Make
+sure the plot is zoomed into Iowa.
+
+```{r}
+
+```
+
+## 4 (8 points)
+
+Use a for loop to calculate
+
+    (1/2) + (1/3) + (1/4) + (1/5) + ... + (1/313) + (1/314)
+
+Save the result in an object called `myval`.
+
+```{r}
+
+```
+
+## 5 (8 points)
+
+Create a matrix, called `mat`, with 8 rows and 5 columns, such that
+`mat[i, j]` contains the value 0.5*(i + j).
+
+```{r}
+
+```
+
+## 6 (8 points)
+
+If you do `sqrt(-1)` in the console, R gives a warning and returns
+`NaN`, which stands for "Not a Number". Write a function called
+`mysqrt`, which takes one input and: (a) returns the square root of
+that input if the input is nonnegative; (b) returns 0 if the input is
+non-numeric or negative.
+
+```{r}
+
+```
+
+## 7 (10 points)
+
+Write a function called `mycap`, which has one formal argument, `mystr`,
+and which converts `mystr` to lower case, except that the last character
+is capitalized, e.g.,
+
+    mycap(mystr = "Today")           returns    "todaY"
+    mycap(mystr = "pRoGrAm")         returns    "prograM"
+    mycap(mystr = "ENCYCLOPEDIa")    returns    "encyclopediA"
+
+```{r}
+
+```
+
+## 8 (10 points)
+
+The included data set `bc.csv` contains data on 683 breast-cancer
+patients. In particular, the column `Class` contains a "benign" or
+"malignant" diagnosis for each patient.
+
+Train and test a `decision_tree` classification model to predict `Class`
+from the other columns using a 90%/10% split between the training and
+testing data. In `my_metrics_dt`, save the output of `metrics(...)` for
+this model.
+
+[Note: The chunk of code below begins with a line `set.seed(1)`. Please
+leave this line in place, and put your code below this line.]
+
+```{r}
+set.seed(1) # Do not move or remove this line
+
+```
