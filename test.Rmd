@@ -6,15 +6,15 @@ output: html_notebook
 | Test 2                         |                Data Analysis with R |
 | :---                           |                                ---: |
 | Due by 8:00 PM on Thu Nov 2    | Business Analytics Graduate Program |
-| Submit via GitHub              |                 BAIS:6060 Fall 2023 |
+| Submit via codePost            |                 BAIS:6060 Fall 2023 |
 
 # Instructions
 
-**Submit your completed notebook back to GitHub by 9:00 PM.**
+**Submit your completed notebook back to codePost by 8:00 PM.**
 
 *Late policy:* For every 10-minute period your notebook is turned in
-past 9:00 PM (including the first 10-minute period), you will lose 25%
-of the test points. For example, if `test.Rmd` is turned in at 9:01 PM,
+past 8:00 PM (including the first 10-minute period), you will lose 25%
+of the test points. For example, if `test.Rmd` is turned in at 8:01 PM,
 you will lose 25%.
 
 This is an individual exam. No communication with anyone else is
@@ -24,8 +24,7 @@ not use Excel to save your CSV file.
 
 You should have received the exam materials (including this file,
 `test.Rmd`) from GitHub. Complete the exercises below in order. Before
-the time limit has expired, upload only your modified `test.Rmd` to
-GitHub.
+the time limit has expired, upload only your modified `test.Rmd` to codePost.
 
 # Exercises
 
